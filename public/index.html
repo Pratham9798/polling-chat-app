@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Polling and Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Real-Time Polling Application</h1>
+
+    <!-- Poll Section -->
+    <div id="poll-section">
+      <h2>Current Poll: Best Programming Language</h2>
+      <canvas id="poll-chart"></canvas>
+      <div id="poll-options"></div>
+      <div id="poll-controls">
+        <button id="result-button">Show Results</button>
+      </div>
+    </div>
+
+    <!-- Chat Section -->
+    <div id="chat-section">
+      <h2>Chat Room</h2>
+      <div id="chat-messages"></div>
+      <div id="typing-indicator"></div>
+      <input type="text" id="chat-input" placeholder="Type your message...">
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <!-- Socket.IO Client Library -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Chart.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Client-Side Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

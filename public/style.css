@@ -1,0 +1,170 @@
+/* General Styles */
+/* General Styles */
+/* General Styles */
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+}
+
+/* Headers */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Poll Section */
+#poll-section {
+  margin-bottom: 30px;
+}
+
+#poll-chart {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#poll-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.poll-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background: #ff7e5f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.poll-option:hover {
+  background: #ff6b4a;
+}
+
+#poll-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#result-button {
+  padding: 10px 20px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#result-button:hover {
+  background: #218838;
+}
+
+/* Chat Section */
+#chat-section {
+  margin-top: 20px;
+}
+
+#chat-messages {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+#typing-indicator {
+  height: 20px;
+  margin-bottom: 10px;
+  color: #888;
+  font-style: italic;
+}
+
+#chat-input {
+  width: calc(100% - 70px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+.chat-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.edit-button, .delete-button {
+  margin-left: 10px;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit-button {
+  background: #ffc107;
+  color: #fff;
+}
+
+.delete-button {
+  background: #dc3545;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background: #e0a800;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
+
+
+  
+  
